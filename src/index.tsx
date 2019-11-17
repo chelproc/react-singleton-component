@@ -22,7 +22,7 @@ export function createSingletonComponent<P, S>(defaultState: S, Component: React
                 SingletonComponent.instance = this;
             }
         }
-        componentDidUnmount() {
+        componentWillUnmount() {
             SingletonComponent.instance = undefined as any;
         }
         render() {
