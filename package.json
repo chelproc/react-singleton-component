@@ -1,0 +1,29 @@
+{
+  "name": "react-singleton-component",
+  "version": "1.0.0",
+  "description": "Easiest way to control the state from outside of the React world.",
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelproc/react-singleton-component.git"
+  },
+  "author": "chelproc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chelproc/react-singleton-component/issues"
+  },
+  "homepage": "https://github.com/chelproc/react-singleton-component#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  }
+}
